@@ -50,11 +50,11 @@ const RegisterPage = () => {
         }
 
         if (usernameValidationError) {
-            return usernameValidation;
+            return usernameValidationError;
         }
 
         if (passwordValidationError) {
-            return passwordValidation;
+            return passwordValidationError;
         }
     }
 
